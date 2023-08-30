@@ -47,6 +47,13 @@ struct TreeNode* createNode(int data)
 ```
 
 ## Credits
+ * [Data structures: Binary trees](https://www.youtube.com/watch?v=H5JubkIy_p8)
+ * [6. Binary Trees, Part 1](https://www.youtube.com/watch?v=76dhtgZt38A)
+ * [Binary tree](https://en.wikipedia.org/wiki/Binary_tree)
+ * [Binary Search Tree](https://en.wikipedia.org/wiki/Binary_search_tree)
+ * [Tree Travesarl](https://www.programiz.com/dsa/tree-traversal)
+ * [Data Structure and Algorithms: Binary Tree](https://www.tutorialspoint.com/data_structures_algorithms/tree_data_structure.htm)
+ * [Data Structures: Trees](https://youtu.be/oSWTXtMglKE)
 
 ## Contact
  * [Sakhile Ndlazi](https://www.twitter.com/sakhilelindah)
