@@ -1,9 +1,9 @@
 CC = gcc
 CFLAGS = -Wall -Werror -Wextra -pedantic -std=gnu89
 
-SOURCES = binary_tree_print.c ./tests/8-main.c 8-binary_tree_postorder.c 0-binary_tree_node.c
+SOURCES = binary_tree_print.c 9-binary_tree_height.c ./tests/9-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c
 OBJECTS = $(SOURCES:.c=.o)
-EXECUTABLE = 8-post
+EXECUTABLE = 9-hei
 
 all: $(EXECUTABLE)
 
