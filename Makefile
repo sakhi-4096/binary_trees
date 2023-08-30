@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-g -Wall -Werror -std=C89
+CFLAGS=-Wall -Werror -Wextra -pedantic -std=gnu89
 BINS=tree
 
 all: $(BINS)
