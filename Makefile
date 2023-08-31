@@ -1,9 +1,9 @@
 CC = gcc
 CFLAGS = -g -Wall -Werror -Wextra -pedantic -std=gnu89
 
-SOURCES = binary_tree_print.c 14-binary_tree_balance.c ./tests/14-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c 1-binary_tree_insert_left.c
+SOURCES = binary_tree_print.c 15-binary_tree_is_full.c ./tests/15-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c
 OBJECTS = $(SOURCES:.c=.o)
-EXECUTABLE = 14-balance
+EXECUTABLE = 15-full
 
 all: $(EXECUTABLE)
 
