@@ -1,9 +1,9 @@
 CC = gcc
 CFLAGS = -g -Wall -Werror -Wextra -pedantic -std=gnu89
 
-SOURCES = binary_tree_print.c 16-binary_tree_is_perfect.c ./tests/16-main.c 0-binary_tree_node.c 2-binary_tree_insert_right.c
+SOURCES = binary_tree_print.c ./tests/17-main.c 17-binary_tree_sibling.c 0-binary_tree_node.c
 OBJECTS = $(SOURCES:.c=.o)
-EXECUTABLE = 16-perfect
+EXECUTABLE = 17-sibling
 
 all: $(EXECUTABLE)
 
